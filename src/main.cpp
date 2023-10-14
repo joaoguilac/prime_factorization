@@ -6,7 +6,6 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
     int n = (int)argv[1];
-    // TODO: mover essa chamada para dentro do 'factorization'
     vector<size_t> subset_primes = getPrimeNumbers(n);
 
     auto start = std::chrono::steady_clock::now();

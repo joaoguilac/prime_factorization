@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<size_t> algorithm(size_t n, vector<size_t> P_r,
-                         size_t U_pr, size_t Highstep) {
+void algorithm(size_t n, vector<size_t> P_r,
+               size_t U_pr, size_t Highstep) {
     // Initialization
     double epsilon = 0.02;
     size_t r = 2;
@@ -23,7 +23,7 @@ vector<size_t> algorithm(size_t n, vector<size_t> P_r,
             steps++;
             int p, q;
             // TODO: factor r into p and q;
-            A = wholePart * (p / q);
+            A = wholePart * (q / p);
             if (n % A != 0) {
                 size_t P_ri = P_r[0];
                 size_t difference = A;
@@ -44,6 +44,7 @@ vector<size_t> algorithm(size_t n, vector<size_t> P_r,
 
     if (steps < Highstep) {
         B = n / A;
+        cout << "A: " << A << " B: " << B << endl;
     } else {
         cout << "n is prime or no solution is found for the chosen thresholds" << endl;
     }
