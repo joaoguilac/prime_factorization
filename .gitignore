@@ -32,3 +32,5 @@
 *.app
 bin/*.o
 build/*.o
+build/**
+main

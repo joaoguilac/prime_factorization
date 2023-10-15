@@ -23,9 +23,9 @@ bool isPrime(int n) {
 // Check for every number from 1 to N
 vector<size_t> getPrimeNumbers(int n) {
     vector<size_t> prime_numbers;
-    size_t square_root = ceil(sqrt(n));
+    // size_t square_root = ceil(sqrt(n));
 
-    for (int i = 1; i <= square_root; i++) {
+    for (int i = 1; i <= n; i++) {
         // Check if current number is prime
         if (isPrime(i)) {
             prime_numbers.push_back(i);
