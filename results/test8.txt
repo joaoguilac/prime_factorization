@@ -1,0 +1,20 @@
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 51923
+>> Número máximo de tentativas fornecido: 1000
+>> Fatores :
+	A: 379
+	B: 137
+
+>> Tempo para encontrar os fatores (algoritmo 1): 0.043121ms
+>> Tempo para encontrar os fatores (algoritmo 2): 0.008686ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
+>> Fatores :
+	A: 5
+	B: 3
+
+>> Tempo para encontrar os fatores (algoritmo 1): 0.046778ms
+>> Tempo para encontrar os fatores (algoritmo 2): 0.003577ms

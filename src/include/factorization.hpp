@@ -1,8 +1,11 @@
+#ifndef _FACTORIZATION_1_
+#define _FACTORIZATION_1_
+
 #include <bits/stdc++.h>
 using namespace std;
 
-#include "possible_multiplier.cpp"
-#include "trial_division.cpp"
+#include "possible_multiplier.hpp"
+#include "trial_division.hpp"
 
 #define size_t long long
 
@@ -22,16 +25,16 @@ vector<size_t> factorization(size_t n, vector<size_t> P_r,
     // Iterate until finding factors or until reaching the threshold specified for steps;
     do {
         double factor = fx * r;
-        double factor_integer = ceil(factor);  // TODO: pode ser ceil ou round
+        double factor_integer = round(factor);  //! pode ser ceil ou round
         while ((r <= U_pr) && (factor != factor_integer + epsilon) && (factor != factor_integer - epsilon)) {
             // find a possible multiplier r of fx which generates its nearest integer;
-            r = getPossibleMultiplier(r, fx);  // TODO
+            r = getPossibleMultiplier(r, fx);  //! a condição de encontrar o inteiro mais próximo pode ser diferente
             steps++;
             vector<pair<size_t, size_t>> factors_pq = trialDivision(P_r, r);
             for (size_t i = 0; i < factors_pq.size(); i++) {
-                pair<size_t, size_t> pq = factors_pq[i];
+                auto pq = factors_pq[i];
                 size_t p{pq.first}, q{pq.second};
-                A = ceil(wholePart * ((double)q / p));  // TODO: pode ser ceil ou round
+                A = ceil(wholePart * ((double)q / p));  //! pode ser ceil ou round
                 if (n % A != 0) {
                     size_t difference = A;
                     size_t index = 0;
@@ -59,7 +62,9 @@ vector<size_t> factorization(size_t n, vector<size_t> P_r,
         factors_AB.push_back(A);
         factors_AB.push_back(B);
     } else {
-        cout << "n is prime or no solution is found for the chosen thresholds" << endl;
+        cout << "O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido." << endl;
     }
     return factors_AB;
 }
+
+#endif

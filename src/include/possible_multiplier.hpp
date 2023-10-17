@@ -1,3 +1,6 @@
+#ifndef _POSSIBLE_MULTIPLIER_
+#define _POSSIBLE_MULTIPLIER_
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -21,3 +24,5 @@ size_t getPossibleMultiplier(size_t r, double fx) {
     }
     return r;
 }
+
+#endif

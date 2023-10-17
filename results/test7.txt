@@ -1,0 +1,101 @@
+=================================================
+>> Tempo para encontrar os fatores: 0.260729ms
+
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 2 - 15
+>> Número máximo de tentativas fornecido: 100
+>> Fatores :
+	A 6	B 2
+=================================================
+>> Tempo para encontrar os fatores: 0.32041ms
+
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 2 - 15
+>> Número fatorado: 5
+>> Número máximo de tentativas fornecido: 100
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 3.41153ms
+
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 300 - 450
+>> Número fatorado: 359
+>> Número máximo de tentativas fornecido: 1000
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 0.523992ms
+
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 100 - 400
+>> Número fatorado: 119
+>> Número máximo de tentativas fornecido: 1000
+>> Fatores :
+	A 7	B 17
+=================================================
+>> Tempo para encontrar os fatores: 0.055123ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 1000
+>> Fatores :
+	A 5	B 3
+=================================================
+>> Tempo para encontrar os fatores: 0.084679ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 18
+>> Número máximo de tentativas fornecido: 100
+>> Fatores :
+	A 9	B 2
+=================================================
+>> Tempo para encontrar os fatores: 0.197279ms
+
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 300 - 800
+>> Número fatorado: 398
+>> Número máximo de tentativas fornecido: 1000
+>> Fatores :
+	A 2	B 199
+=================================================
+>> Tempo para encontrar os fatores: 0.056155ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 51923
+>> Número máximo de tentativas fornecido: 1000
+>> Fatores :
+	A 379	B 137
+=================================================
+>> Tempo para encontrar os fatores: 0.680234ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 14789166241
+>> Número máximo de tentativas fornecido: 150000
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 0.041278ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
+>> Fatores :
+	A 5	B 3
+=================================================
+>> Tempo para encontrar os fatores: 0.05343ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 51923
+>> Número máximo de tentativas fornecido: 10000
+>> Fatores :
+	A 379	B 137
+=================================================
+>> Tempo para encontrar os fatores: 0.040877ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 4
+>> Número máximo de tentativas fornecido: 100
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 0.035376ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 4
+>> Número máximo de tentativas fornecido: 100
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 0.045074ms
+
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
+>> Fatores :
+	A 5	B 3

@@ -6,7 +6,9 @@
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
-      "args": [],
+      "args": [
+        "test7.txt"
+      ],
       "stopAtEntry": true,
       "cwd": "${workspaceFolder}",
       "environment": [],

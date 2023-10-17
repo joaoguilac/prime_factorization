@@ -1,3 +1,6 @@
+#ifndef _TRIAL_DIVISION_
+#define _TRIAL_DIVISION_
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,3 +42,5 @@ vector<pair<size_t, size_t>> trialDivision(vector<size_t> subset_primes, size_t 
 
     return factorized_pairs;
 }
+
+#endif
