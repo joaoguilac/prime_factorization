@@ -56,13 +56,10 @@ vector<size_t> factorization(size_t n, vector<size_t> P_r,
         }
     } while ((n % A != 0) && (steps <= Highstep));
 
-    if (steps < Highstep && A != 1) {
-        B = n / A;
-        cout << "A: " << A << " B: " << B << endl;
+    B = n / A;
+    if (steps < Highstep && A != 1 && B != 1) {
         factors_AB.push_back(A);
         factors_AB.push_back(B);
-    } else {
-        cout << "O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido." << endl;
     }
     return factors_AB;
 }

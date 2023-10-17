@@ -50,3 +50,29 @@
 		A: 137
 		B: 379
 	>> Tempo para encontrar os fatores: 0.008786ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 37527851
+>> Número máximo de tentativas fornecido: 10000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 37527851
+		B: 1
+	>> Tempo para encontrar os fatores: 1.87139ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 6121
+		B: 6131
+	>> Tempo para encontrar os fatores: 0.342031ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 37527851
+>> Número máximo de tentativas fornecido: 10000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 1.65729ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 6121
+		B: 6131
+	>> Tempo para encontrar os fatores: 0.361537ms
