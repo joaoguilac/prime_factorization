@@ -1,0 +1,7 @@
+=================================================
+>> Tempo para encontrar os fatores: 0.249217ms
+
+>> Número fatorado: 128
+>> Número máximo de tentativas fornecido: 200
+>> Fatores :
+	A 4	B 32

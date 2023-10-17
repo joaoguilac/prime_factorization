@@ -3,36 +3,38 @@ using namespace std;
 
 #define size_t long long
 
-// Function to find gcd of array of
-// numbers
-vector<pair<size_t, size_t>> trialDivision(vector<size_t> subset_primes, size_t n) {
+vector<pair<size_t, size_t>> trialDivision(vector<size_t> subset_primes, size_t r) {
     size_t prime = subset_primes[0];
     size_t i = 0;
-    size_t remainder = n;
+    size_t remainder = r;
     vector<size_t> factors;
-    while (remainder != 1 && prime <= n) {
+    while (remainder != 1 && prime <= r) {
         if (remainder % prime == 0) {
             factors.push_back(prime);
             remainder /= prime;
         } else {
             i++;
+            if (i == subset_primes.size()) {
+                break;
+            }
             prime = subset_primes[i];
         }
     }
 
-    // for (size_t i = 0; i < factors.size(); i++) {
-    //     cout << factors[i] << endl;
-    // }
-
     vector<pair<size_t, size_t>> factorized_pairs;
-    size_t square_root = ceil(sqrt(n));
+    size_t square_root = ceil(sqrt(r));
     i = 0;
-    size_t factor = factors[i];
-    while (factor <= square_root) {
-        size_t result = n / factor;
-        factorized_pairs.push_back({factor, result});
-        i++;
-        factor *= factors[i];
+    if (factors.size() > 0) {
+        size_t factor = factors[i];
+        while (factor <= square_root) {
+            size_t result = r / factor;
+            factorized_pairs.push_back({factor, result});
+            i++;
+            if (i == factors.size()) {
+                break;
+            }
+            factor *= factors[i];
+        }
     }
 
     return factorized_pairs;

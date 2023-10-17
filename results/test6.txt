@@ -1,0 +1,6 @@
+=================================================
+>> Tempo para encontrar os fatores: 0.575738ms
+
+>> Número fatorado: 14789166241
+>> Número máximo de tentativas fornecido: 20000
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.

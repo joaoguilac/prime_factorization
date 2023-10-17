@@ -1,0 +1,22 @@
+=================================================
+>> Tempo para encontrar os fatores: 0.572031ms
+
+>> Número fatorado: 2147483648
+>> Número máximo de tentativas fornecido: 1000
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 0.490819ms
+
+>> Número fatorado: 2147483648
+>> Número máximo de tentativas fornecido: 15000
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 0.047409ms
+
+>> Número fatorado: 4
+>> Número máximo de tentativas fornecido: 10
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.=================================================
+>> Tempo para encontrar os fatores: 0.066264ms
+
+>> Número fatorado: 21
+>> Número máximo de tentativas fornecido: 10
+>> Fatores :
+	A 3	B 7

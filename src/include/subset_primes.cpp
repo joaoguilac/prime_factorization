@@ -28,7 +28,7 @@ vector<size_t> getPrimeNumbers(size_t n) {
     // size_t square_root = ceil(sqrt(n));
 
     // TODO: tirar 1000 e colocar n
-    for (size_t i = 1; i <= 1000; i++) {
+    for (size_t i = 1; i <= 15100; i++) {
         // Check if current number is prime
         if (isPrime(i)) {
             prime_numbers.push_back(i);

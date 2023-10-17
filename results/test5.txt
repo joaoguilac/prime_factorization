@@ -1,0 +1,7 @@
+=================================================
+>> Tempo para encontrar os fatores: 0.323505ms
+
+>> Número fatorado: 820476
+>> Número máximo de tentativas fornecido: 20000
+>> Fatores :
+	A 9	B 91164
