@@ -99,3 +99,9 @@ O número é primo ou nenhuma solução foi encontrada para o limite de tentativ
 >> Número máximo de tentativas fornecido: 100
 >> Fatores :
 	A 5	B 3
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 14789166241
+>> Número máximo de tentativas fornecido: 200000
+O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+>> Tempo para encontrar os fatores (algoritmo 1): 2.26143ms

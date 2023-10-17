@@ -19,23 +19,24 @@ void printResult(std::chrono::duration<float> time, size_t a, size_t b, size_t n
         results << ">> Número fatorado: " << n << std::endl;
         results << ">> Número máximo de tentativas fornecido: " << Highstep << std::endl;
 
-        if (factors.size() > 0) {
-            results << ">> Fatores:\n";
-            results << "\tA: " << factors[0] << endl;
-            results << "\tB: " << factors[1];
-            results << "\n";
-        } else {
-            results << "O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.";
-        }
-        algorithm = "algoritmo 1";
+        algorithm = ">> Algoritmo 1:";
     }
     if (flag == 1) {
-        algorithm = "algoritmo 2";
+        algorithm = ">> Algoritmo 2:";
     }
 
+    results << algorithm << std::endl;
+
+    if (factors.size() > 0) {
+        results << "\t>> Fatores:\n";
+        results << "\t\tA: " << factors[0] << endl;
+        results << "\t\tB: " << factors[1];
+        results << "\n";
+    } else {
+        results << "\tO número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.\n";
+    }
     // Milliseconds (10^-3)
-    results << ">> Tempo para encontrar os fatores (" << algorithm << ")"
-            << ": ";
+    results << "\t>> Tempo para encontrar os fatores: ";
     results << std::chrono::duration<double, std::milli>(time).count();
     results << "ms\n";
 

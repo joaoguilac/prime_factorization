@@ -1,0 +1,52 @@
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 14789166241
+>> Número máximo de tentativas fornecido: 10000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores:1.15816ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 15031
+		B: 983911
+	>> Tempo para encontrar os fatores:18.8456ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 14789166241
+>> Número máximo de tentativas fornecido: 10000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 1.10207ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 15031
+		B: 983911
+	>> Tempo para encontrar os fatores: 18.205ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 5
+		B: 3
+	>> Tempo para encontrar os fatores: 0.041337ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 3
+		B: 5
+	>> Tempo para encontrar os fatores: 0.003647ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 51923
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 379
+		B: 137
+	>> Tempo para encontrar os fatores: 0.041708ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 137
+		B: 379
+	>> Tempo para encontrar os fatores: 0.008786ms
