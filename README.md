@@ -18,5 +18,5 @@ g++ -Wall -std=c++17 -g src/main.cpp -I src/include -o build/run
 Manualmente:
 
 ```bash
-build/run
+build/run <arquivo_de_resultado>
 ```

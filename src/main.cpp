@@ -3,15 +3,11 @@ using namespace std;
 
 #include "include/factorization.hpp"
 #include "include/factorization2.hpp"
+#include "include/factorization3.hpp"
 #include "include/print_results.hpp"
 #include "include/subset_primes.hpp"
 
 #define size_t long long
-
-int randint(int a, int b) {
-    std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
-    return std::uniform_int_distribution<int>(a, b)(rng);
-}
 
 int main(int argc, char const *argv[]) {
     size_t n, Highstep;
@@ -51,6 +47,14 @@ int main(int argc, char const *argv[]) {
     // print the result of the second algorithm
     time = end - start;
     printResult(time, a, b, n, Highstep, factors, output_file, 1);
+
+    start = std::chrono::steady_clock::now();
+    factors = factorization3(n, Highstep);
+    end = std::chrono::steady_clock::now();
+
+    // print the result of the third algorithm
+    time = end - start;
+    printResult(time, a, b, n, Highstep, factors, output_file, 2);
 
     cout << "Acesse results/" << output_file << " para ver os resultados da execução." << endl;
 

@@ -1,0 +1,258 @@
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
+>> Algoritmo 1:
+	>> Fatores:
+		A: 5
+		B: 3
+	>> Tempo para encontrar os fatores: 0.003707ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 3
+		B: 5
+	>> Tempo para encontrar os fatores: 0.003597ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 5
+		B: 3
+	>> Tempo para encontrar os fatores: 0.013635ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 40000
+>> Número máximo de tentativas fornecido: 100
+>> Algoritmo 1:
+	>> Fatores:
+		A: 100
+		B: 400
+	>> Tempo para encontrar os fatores: 0.003407ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 20000
+	>> Tempo para encontrar os fatores: 0.012384ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 5
+		B: 8000
+	>> Tempo para encontrar os fatores: 0.01561ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 51923
+>> Número máximo de tentativas fornecido: 100
+>> Algoritmo 1:
+	>> Fatores:
+		A: 379
+		B: 137
+	>> Tempo para encontrar os fatores: 0.0055ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 137
+		B: 379
+	>> Tempo para encontrar os fatores: 0.008657ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 137
+		B: 379
+	>> Tempo para encontrar os fatores: 0.013235ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 55872
+>> Número máximo de tentativas fornecido: 100
+>> Algoritmo 1:
+	>> Fatores:
+		A: 3
+		B: 18624
+	>> Tempo para encontrar os fatores: 0.301414ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 27936
+	>> Tempo para encontrar os fatores: 0.010289ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 24
+		B: 2328
+	>> Tempo para encontrar os fatores: 0.011141ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 111000
+>> Número máximo de tentativas fornecido: 100
+>> Algoritmo 1:
+	>> Fatores:
+		A: 500
+		B: 222
+	>> Tempo para encontrar os fatores: 0.006753ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 55500
+	>> Tempo para encontrar os fatores: 0.012514ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 600
+		B: 185
+	>> Tempo para encontrar os fatores: 0.011371ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 450000
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 5
+		B: 90000
+	>> Tempo para encontrar os fatores: 0.219641ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 225000
+	>> Tempo para encontrar os fatores: 0.022242ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 240
+		B: 1875
+	>> Tempo para encontrar os fatores: 0.013485ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 37527851
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 1.63978ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 6121
+		B: 6131
+	>> Tempo para encontrar os fatores: 0.328875ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 6131
+		B: 6121
+	>> Tempo para encontrar os fatores: 0.024977ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 260100000
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 2
+		B: 130050000
+	>> Tempo para encontrar os fatores: 1.15421ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 130050000
+	>> Tempo para encontrar os fatores: 1.11297ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 3600
+		B: 72250
+	>> Tempo para encontrar os fatores: 0.012053ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 542448900
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 81
+		B: 6696900
+	>> Tempo para encontrar os fatores: 0.462516ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 271224450
+	>> Tempo para encontrar os fatores: 1.83731ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 420
+		B: 1291545
+	>> Tempo para encontrar os fatores: 0.012383ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 2147483648
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.59854ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 1073741824
+	>> Tempo para encontrar os fatores: 4.79059ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 16
+		B: 134217728
+	>> Tempo para encontrar os fatores: 0.011983ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 10000000000
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 50000
+		B: 200000
+	>> Tempo para encontrar os fatores: 0.052699ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 5000000000
+	>> Tempo para encontrar os fatores: 13.8927ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 4
+		B: 2500000000
+	>> Tempo para encontrar os fatores: 0.013435ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 14789166241
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 1.14544ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 15031
+		B: 983911
+	>> Tempo para encontrar os fatores: 18.2557ms
+>> Algoritmo 3:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.192641ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 1000000000000
+>> Número máximo de tentativas fornecido: 10000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 500000
+		B: 2000000
+	>> Tempo para encontrar os fatores: 0.413483ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 500000000000
+	>> Tempo para encontrar os fatores: 353.935ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 16
+		B: 62500000000
+	>> Tempo para encontrar os fatores: 0.012253ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 100000000000000
+>> Número máximo de tentativas fornecido: 10000
+>> Algoritmo 1:
+	>> Fatores:
+		A: 5000000
+		B: 20000000
+	>> Tempo para encontrar os fatores: 2.55098ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 50000000000000
+	>> Tempo para encontrar os fatores: 9301.32ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 5
+		B: 20000000000000
+	>> Tempo para encontrar os fatores: 0.012734ms

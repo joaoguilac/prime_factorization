@@ -5,3 +5,126 @@
 >> Número máximo de tentativas fornecido: 10
 >> Fatores :
 	A 5	B 3
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 2147483648
+>> Número máximo de tentativas fornecido: 100000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.546003ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 1073741824
+	>> Tempo para encontrar os fatores: 4.87061ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 2147483648
+>> Número máximo de tentativas fornecido: 10
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.556192ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 1073741824
+	>> Tempo para encontrar os fatores: 4.82107ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 2147483648
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.553065ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 1073741824
+	>> Tempo para encontrar os fatores: 4.91744ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 20000 - 100000
+>> Número fatorado: 49175
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.629569ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 5
+		B: 9835
+	>> Tempo para encontrar os fatores: 0.009387ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 200000 - 5000000
+>> Número fatorado: 4060049
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 1.82814ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 7
+		B: 580007
+	>> Tempo para encontrar os fatores: 0.073829ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 50000 - 100000
+>> Número fatorado: 97467
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.248174ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 3
+		B: 32489
+	>> Tempo para encontrar os fatores: 0.011151ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 50000 - 100000
+>> Número fatorado: 52994
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.213489ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 26497
+	>> Tempo para encontrar os fatores: 0.008716ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 50000 - 100000
+>> Número fatorado: 80458
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.151273ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 40229
+	>> Tempo para encontrar os fatores: 0.01048ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 50000 - 100000
+>> Número fatorado: 57062
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.294692ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 28531
+	>> Tempo para encontrar os fatores: 0.009197ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 50000 - 100000
+>> Número fatorado: 74900
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.191629ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 37450
+	>> Tempo para encontrar os fatores: 0.010539ms
+=================================================
+>> Intervalo de valores para geração de número aleatório a ser fatorado: 50000 - 100000
+>> Número fatorado: 72113
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.132858ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 37
+		B: 1949
+	>> Tempo para encontrar os fatores: 0.009458ms

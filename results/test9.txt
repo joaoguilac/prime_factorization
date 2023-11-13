@@ -76,3 +76,15 @@
 		A: 6121
 		B: 6131
 	>> Tempo para encontrar os fatores: 0.361537ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 4
+>> Número máximo de tentativas fornecido: 100
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.024616ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 2
+		B: 2
+	>> Tempo para encontrar os fatores: 0.003497ms

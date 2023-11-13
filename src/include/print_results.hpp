@@ -5,9 +5,9 @@
 using namespace std;
 
 void printResult(std::chrono::duration<float> time, size_t a, size_t b, size_t n,
-                 size_t Highstep, vector<size_t> factors, std::string file_path, bool flag) {
+                 size_t Highstep, vector<size_t> factors, std::string file_path, size_t flag) {
     std::ofstream results("results/" + file_path, std::ios::app);
-    std::string algorithm;
+    size_t algorithm;
 
     if (flag == 0) {
         results << "=================================================\n";
@@ -19,13 +19,15 @@ void printResult(std::chrono::duration<float> time, size_t a, size_t b, size_t n
         results << ">> Número fatorado: " << n << std::endl;
         results << ">> Número máximo de tentativas fornecido: " << Highstep << std::endl;
 
-        algorithm = ">> Algoritmo 1:";
+        algorithm = 1;
     }
     if (flag == 1) {
-        algorithm = ">> Algoritmo 2:";
+        algorithm = 2;
     }
-
-    results << algorithm << std::endl;
+    if (flag == 2) {
+        algorithm = 3;
+    }
+    results << ">> Algoritmo " << algorithm << ":" << std::endl;
 
     if (factors.size() > 0) {
         results << "\t>> Fatores:\n";

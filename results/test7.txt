@@ -105,3 +105,52 @@ O número é primo ou nenhuma solução foi encontrada para o limite de tentativ
 >> Número máximo de tentativas fornecido: 200000
 O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
 >> Tempo para encontrar os fatores (algoritmo 1): 2.26143ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
+
+	>> Fatores:
+		A: 5
+		B: 3
+	>> Tempo para encontrar os fatores: 0.003546ms
+
+	>> Fatores:
+		A: 3
+		B: 5
+	>> Tempo para encontrar os fatores: 8652.21ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
+
+	>> Fatores:
+		A: 5
+		B: 3
+	>> Tempo para encontrar os fatores: 0.003567ms
+
+	>> Fatores:
+		A: 3
+		B: 5
+	>> Tempo para encontrar os fatores: 5830.98ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
+
+	>> Fatores:
+		A: 5
+		B: 3
+	>> Tempo para encontrar os fatores: 0.003517ms
+
+	>> Fatores:
+		A: 3
+		B: 5
+	>> Tempo para encontrar os fatores: 1945.43ms
+
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 27949.2ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 15
+>> Número máximo de tentativas fornecido: 100
