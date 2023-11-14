@@ -1,6 +1,6 @@
-# Fatoração de Números Primos no contexto de Criptografia
+# Fatoração de Números Inteiros no contexto de Criptografia
 
-Implementação de algoritmos para resolver o problema de fatoração de números primos para a disciplina de Projeto e Análise de Algoritmos DIM0605 do curso Bacharelado em Tecnologia da Informação da Universidade Federal do Rio Grande do Norte período 2023.2.
+Implementação de algoritmos para resolver o problema de fatoração de números inteiros para a disciplina de Projeto e Análise de Algoritmos DIM0605 do curso Bacharelado em Tecnologia da Informação da Universidade Federal do Rio Grande do Norte período 2023.2.
 
 Alunos:
 
