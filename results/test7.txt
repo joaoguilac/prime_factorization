@@ -154,3 +154,88 @@ O número é primo ou nenhuma solução foi encontrada para o limite de tentativ
 >> O número não foi gerado aleatoriamente.
 >> Número fatorado: 15
 >> Número máximo de tentativas fornecido: 100
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 187
+>> Número máximo de tentativas fornecido: 100
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.898641ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.0055ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 17
+		B: 11
+	>> Tempo para encontrar os fatores: 0.014016ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 187
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 1.58122ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.005029ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.013235ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 187
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.881139ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.003877ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.011672ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 187
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.891288ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.004088ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.011031ms
+=================================================
+>> O número não foi gerado aleatoriamente.
+>> Número fatorado: 187
+>> Número máximo de tentativas fornecido: 1000
+>> Algoritmo 1:
+	O número é primo ou nenhuma solução foi encontrada para o limite de tentativas escolhido.
+	>> Tempo para encontrar os fatores: 0.944668ms
+>> Algoritmo 2:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.004749ms
+>> Algoritmo 3:
+	>> Fatores:
+		A: 11
+		B: 17
+	>> Tempo para encontrar os fatores: 0.011892ms

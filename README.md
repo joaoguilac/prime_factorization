@@ -16,7 +16,12 @@ g++ -Wall -std=c++17 -g src/main.cpp -I src/include -o build/run
 ## Execução
 
 Manualmente:
-
 ```bash
 build/run <arquivo_de_resultado>
 ```
+
+Exemplo:
+```bash
+build/run test.txt
+```
+O arquivo gerado será acessível na pasta `results`.

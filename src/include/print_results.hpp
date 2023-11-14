@@ -27,6 +27,9 @@ void printResult(std::chrono::duration<float> time, size_t a, size_t b, size_t n
     if (flag == 2) {
         algorithm = 3;
     }
+    if (flag == 3) {
+        algorithm = 4;
+    }
     results << ">> Algoritmo " << algorithm << ":" << std::endl;
 
     if (factors.size() > 0) {

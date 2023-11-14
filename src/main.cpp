@@ -4,6 +4,7 @@ using namespace std;
 #include "include/factorization.hpp"
 #include "include/factorization2.hpp"
 #include "include/factorization3.hpp"
+#include "include/factorization4.hpp"
 #include "include/print_results.hpp"
 #include "include/subset_primes.hpp"
 
@@ -55,6 +56,14 @@ int main(int argc, char const *argv[]) {
     // print the result of the third algorithm
     time = end - start;
     printResult(time, a, b, n, Highstep, factors, output_file, 2);
+
+    start = std::chrono::steady_clock::now();
+    factors = factorization4(n, Highstep);
+    end = std::chrono::steady_clock::now();
+
+    // print the result of the fourth algorithm
+    time = end - start;
+    printResult(time, a, b, n, Highstep, factors, output_file, 3);
 
     cout << "Acesse results/" << output_file << " para ver os resultados da execução." << endl;
 
